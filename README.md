@@ -51,4 +51,8 @@ Start the server:Bash node server.js
 The API server should start on http://localhost:5000.3. Frontend InstallationNavigate to the frontend directory:Bashcd rental-management/frontend
 Install dependencies:Bash npm install
 Start the React development server:Bash npm start
-The application should open in your browser at http://localhost:3000.🔑 API Endpoints (WIP)The backend provides a RESTful API accessible on port 5000.CategoryMethodEndpointDescriptionAuthPOST/api/auth/registerCreate a new user account.AuthPOST/api/auth/loginAuthenticate and receive a JWT.PropertiesGET/api/propertiesFetch all available listings.PropertiesPOST/api/propertiesAdd a new property (Admin/Agent required).RentalsGET/api/rentals/user/:idGet all active rentals for a user/tenant.
+The application should open in your browser at http://localhost:3000.
+API Endpoints (WIP)The backend provides a RESTful API accessible on port 5000.
+CategoryMethodEndpointDescriptionAuthPOST/api/auth/registerCreate a new user account.
+AuthPOST/api/auth/loginAuthenticate and receive a JWT.PropertiesGET/api/propertiesFetch all available listings.
+PropertiesPOST/api/propertiesAdd a new property (Admin/Agent required).RentalsGET/api/rentals/user/:idGet all active rentals for a user/tenant.
